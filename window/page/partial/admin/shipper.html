@@ -1,0 +1,53 @@
+<div class="card" id="admShipper" data-state="null">
+  <div class="card-header bg-navy text-white">
+    <div class="card-title"><h5 id="admShipperTitle"></h5></div>
+  </div>
+  <div class="px-3 bkgReqBox">
+
+    <div class="row py-0">
+      <div class="col">
+        <div class="form-group">
+          <label for="shipperShort">Shipper Code</label>
+          <input type="text" class="form-control" id="shipperShort" placeholder="Shipper Code (8 letters)" maxlength="8">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="shipperFull">Name</label>
+          <input type="text" class="form-control" id="shipperFull" placeholder="Shipper Name">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="shipperPhone">Phone Number</label>
+          <input type="tel" class="form-control" id="shipperPhone" placeholder="(888)888-8888">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group" >
+          <label for="assignEmp">Assign To</label>
+          <select class="custom-select" id="assignEmp" onchange="">
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row py-0">
+      <div class="col">
+        <div class="form-group">
+          <label for="shipperAddress">Address</label>
+          <textarea class="form-control" id="shipperAddress" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="shipperNote">Notes</label>
+          <textarea class="form-control" id="shipperNote" rows="5"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <button type='button' class='btn btn-primary' id="saveShipperBtn">Save Shipper</button>
+    </div>
+    <div id="returnResponse"></div>
+  </div>
+</div>

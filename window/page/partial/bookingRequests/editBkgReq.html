@@ -1,0 +1,102 @@
+<div class="px-3 bkgReqBox">
+  <div class="row py-0">
+    <div class="col-md-3 col-12 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="editBkgReqSsco">Carrier</label><a style="cursor: pointer;" data-toggle="tooltip" data-placement="top" title="We will always strive to provide a booking with the best rate, or that otherwise best matches your request."><sup>&#9432;</sup></a>
+        <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="editBkgReqSsco">
+        </select>
+      </div>
+    </div>
+    <div class="col-md-3 col-6 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="editBkgReqOrigin">Origin<span class='requiredFormElem'></span></label>
+        <select class="custom-select" id="editBkgReqOrigin" required>
+        </select>
+      </div>
+    </div>
+    <div class="col-md-3 col-6 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="editBkgReqDestination">Destination<span class='requiredFormElem'></span></label>
+        <select class="custom-select" id="editBkgReqDestination" required>
+        </select>
+      </div>
+    </div>
+    <div class="col-lg-1 col-md-1 col-4 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="editBkgReqCntrCount">Count<span class='requiredFormElem'></span></label>
+        <input type="text" class="form-control" id="editBkgReqCntrCount" maxlength="2" required>
+      </div>
+    </div>
+    <div class="col-md-2 col-8 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="editBkgReqCntrType">Type</label>
+        <select class="custom-select" id="editBkgReqCntrType">
+          <option value="40'HC" selected>40'HC</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="row py-0">
+    <div class="col-lg-3 col-md-2 col-6 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="editBkgReqShipperRef">Shipper Ref #</label>
+        <input type="text" class="form-control" id="editBkgReqShipperRef">
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-2 col-6 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="editBkgReqConsignee">Consignee</label>
+        <input type="text" class="form-control" id="editBkgReqConsignee">
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-5 col-12 p-1">
+      <div class="form-group">
+        <div class='row'>
+          <div class='col'>
+            <label for="bookingDate">Shipment Date<span class='requiredFormElem'></span></label>
+          </div>
+          <div class='col-auto'>
+            <span id="editBkgReqDateToggle" class="toggle toggle-light"></span>
+          </div>
+        </div>
+        <input type="text" class="form-control" placeholder="yyyy/mm/dd" id="editBkgReqSingleDate" data-active="true" required>
+        <input type="text" class="form-control" placeholder="yyyy/mm/dd" id="editBkgReqDateRange" data-active="false" style="display: none" required>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-7 col-12 text-sm-left text-center p-1">
+      <div id="bookingDateTypes" class="form-group ml-3 mt-3">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="editBkgReqDateTypeOptions" id="editBkgReqCUT" value="CUT" checked>
+          <label class="radio-font form-check-label">CUTOFF</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="editBkgReqDateTypeOptions" id="editBkgReqPROMPT" value="PROMPT">
+          <label class="radio-font form-check-label">PROMPT</label>
+        </div>
+        <br />
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="editBkgReqDateTypeOptions" id="editBkgReqETD" value="ETD">
+          <label class="radio-font form-check-label"style="margin-right: 26px;">ETD</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="editBkgReqDateTypeOptions" id="editBkgReqETA" value="ETA">
+          <label class="radio-font form-check-label">ETA</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row py-0">
+    <div class="col-lg-3 col-md-4 col-12 p-1">
+      <div class="form-group">
+        <label class="mr-sm-2" for="bookingProduct">Product/Packaging</label>
+        <input type="text" class="form-control" id="editBkgReqProduct">
+      </div>
+    </div>
+    <div class="col-lg-9 col-md-8 col-12 p-1">
+      <div class="form-group">
+        <label for="editBkgReqNotes" class="mr-2">Notes</label><a style="cursor: pointer;" data-toggle="tooltip" data-placement="top" title="Notes may include alternative carrier options, additional details, etc."><sup>&#9432;</sup></a>
+        <input type="text" class="form-control" id="editBkgReqNotes">
+      </div>
+    </div>
+  </div>
+</div>

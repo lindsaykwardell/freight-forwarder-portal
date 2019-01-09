@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Freight Forwarder Online Portal",
+  "version": "b.4.5",
+  "short_name": "FF Portal",
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#eaeaea",
+  "theme_color": "#eaeaea",
+  "description": "Online portal for freight forwarders.",
+  "dir": "ltr",
+  "lang": "en-US"
+}

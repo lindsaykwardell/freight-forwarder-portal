@@ -1,0 +1,59 @@
+<div class="card" id="admSsco" data-state="null">
+  <div class="card-header bg-navy text-white">
+    <div class="card-title"><h5 id="admSscoTitle"></h5></div>
+  </div>
+  <div class="px-3 bkgReqBox">
+
+    <div class="row py-0">
+      <div class="col" id="admSscoSelectCol">
+        <div class="form-group" >
+          <label for="admSscoSelect">Select Carrier</label>
+          <select class="custom-select" id="admSscoSelect">
+          </select>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="sscoShort">Carrier Code</label>
+          <input type="text" class="form-control" id="sscoShort" placeholder="Carrier Code (4 letters)" maxlength="4">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="sscoFull">Name</label>
+          <input type="text" class="form-control" id="sscoFull" placeholder="Carrier Name" maxlength="20">
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-group">
+          <label for="perContainer">Per Container Charges</label>
+          <input type="number" class="form-control" id="perContainer">
+        </div>
+      </div>
+      <!-- <div class="col">
+        <div class="form-group">
+          <label for="shipperPhone">Phone Number</label>
+          <input type="tel" class="form-control" id="shipperPhone" placeholder="(888)888-8888">
+        </div>
+      </div> -->
+    </div>
+    <div class="row py-0">
+      <!-- <div class="col">
+        <div class="form-group">
+          <label for="shipperAddress">Address</label>
+          <textarea class="form-control" id="shipperAddress" rows="5"></textarea>
+        </div>
+      </div> -->
+      <div class="col">
+        <div class="form-group">
+          <label for="sscoNote">Notes</label>
+          <textarea class="form-control" id="sscoNote" rows="5"></textarea>
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <button type='button' class='btn btn-primary' id="saveSscoBtn">Save Carrier</button>
+    </div>
+    <div id="returnResponse"></div>
+  </div>
+</div>

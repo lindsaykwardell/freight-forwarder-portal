@@ -1,0 +1,15 @@
+{
+  "name": "ff/online-portal",
+  "description": "Freight Forwarder Online Portal",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lindsay Wardell",
+      "email": "lindsaykwardell@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.1"
+  }
+}

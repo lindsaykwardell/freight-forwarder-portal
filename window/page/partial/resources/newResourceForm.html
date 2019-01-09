@@ -1,0 +1,25 @@
+<div class="card mb-3">
+  <div class='card-header bg-navy text-white md-form mt-0'>
+    <input id="newResourceName" type='text' class='text-white form-control' style='font-family: Roboto,sans-serif; font-weight: 300; font-size: 1.25rem;'>
+  </div>
+  <div class='card-body'>
+    <div class="row">
+      <div class="col-8">
+        <div class="form-group">
+          <label class="mr-sm-2" for="resourceExtLink">External Link</label>
+          <input type="text" class="form-control" id="resourceExtLink" placeholder="Leave blank if no external resource.">
+        </div>
+      </div>
+      <div class="col-4">
+        <label class="mr-sm-2" for="resourceCategory">Category</label>
+        <input class="form-control" id="resourceCategory" list="resourceCategoryList">
+        <datalist id="resourceCategoryList">
+        </datalist>
+      </div>
+    </div>
+    <textarea id="newResourceTextarea" rows="3" style="width: 100%"></textarea>
+    <div class="text-center">
+      <button id="submitResource" class="btn btn-primary">Submit Resource</button>
+    </div>
+  </div>
+</div>

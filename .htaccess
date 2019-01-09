@@ -1,0 +1,16 @@
+<Files "php.php">
+Order Allow,Deny
+Deny from All
+</Files>
+
+RewriteEngine On
+RewriteRule ^home/?$ index.php?page=bookingRequests [NC,L]
+RewriteRule ^rates/?$ index.php?page=rateMatrix [NC,L]
+RewriteRule ^bookingRequests/?$ index.php?page=bookingRequests [NC,L]
+RewriteRule ^resources/?$ index.php?page=resources [NC,L]
+RewriteRule ^admin/?$ index.php?page=admin [NC,L]
+RewriteRule ^details/?$ index.php?page=userSettings [NC,L]
+RewriteRule ^password/?$ index.php?page=changePassword [NC,L]
+RewriteRule ^login/?$ index.php?login [NC,L]
+RewriteRule ^register/?$ index.php?register [NC,L]
+RewriteRule ^logout/?$ window/script/logout.php [NC,L]
